@@ -1,3 +1,4 @@
+## Personal Design-Centric Website
 ### Changelog
 **10/24/2020**
 - Background animation completed
