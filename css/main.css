@@ -4,6 +4,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
+    color: #D3D1DB;
 }
 
 canvas {
@@ -63,3 +64,79 @@ canvas {
         margin-top: 15px;
         
     }
+
+    #cso-img {
+        background: url(../img/sprite-sheet.png) 0px -78px;
+        position: relative;
+        z-index: 999;
+        width: 833px;
+        height: 411px;
+        max-width: 100%;
+        float:right;
+        margin: 0 12% 0 0;
+    }
+
+        .cs-side-copy
+        {
+            color: #D3D1DB;
+            z-index: 999;
+            margin: 243px 0px 0px -20px;
+            font-size: 12px;
+            writing-mode: sideways-lr;
+            text-orientation: sideways-right;
+            float:left;
+        }
+
+        .cs-bottom-copy
+        {
+            margin: 415px 0 0 0;
+        }
+
+    #case-study-one {
+        float:left;
+    }
+
+
+        #case-study-one .sub-nav-content{
+            position: relative;
+            z-index: 999;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            padding: 9px;
+            margin: 208px 0 0 9px;
+        }
+
+            #case-study-one .line {
+                border-right: 0.25px solid #D3D1DB;
+                height: 78px;
+                z-index: 999;
+                position: relative;
+                float: left;
+                margin: 10px 10px 10px 10px;
+            }
+
+
+    #email {
+        background: url(../img/sprite-sheet.png) 16px 105px;
+        position: relative;
+        z-index: 999;
+        display: block;
+        text-indent: -9999px;
+        width: 41px;
+        height: 41px;
+        margin: 103px 0px 15px 0px;
+    }
+
+    #linkedin {
+        background: url(../img/sprite-sheet.png) 16px 55px;
+        position: relative;
+        z-index: 999;
+        display: block;
+        text-indent: -9999px;
+        width: 41px;
+        height: 32px;
+    }
+
+    
+    
+    
