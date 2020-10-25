@@ -42,55 +42,85 @@ canvas {
                 list-style: none;
             }
 
-    #case-studies-label {
-        color: #3FA9F5;
-        font-size: 12px;
-        z-index: 999;
-        font-weight: 600;
-        letter-spacing: 1px;
-        margin-right: 50%;
-        position: relative;
-        float: right;
-        margin-right: 50%;
-    }
-
-    .cs-line {
-        border-right: 0.25px solid #D3D1DB;
-        height: 78px;
-        z-index: 999;
-        position: relative;
-        float:right;
-        margin-right: 59%;
-        margin-top: 15px;
-        
-    }
-
-    #cso-img {
-        background: url(../img/sprite-sheet.png) 0px -78px;
-        position: relative;
-        z-index: 999;
+    #case-study-one-container {
         width: 833px;
-        height: 411px;
-        max-width: 100%;
-        float:right;
+        float: right;
+        z-index: 999;
+        position: relative;
         margin: 0 12% 0 0;
     }
 
-        .cs-side-copy
-        {
-            color: #D3D1DB;
-            z-index: 999;
-            margin: 243px 0px 0px -20px;
+        #case-study-one-container .case-studies-label {
+            color: #3FA9F5;
             font-size: 12px;
-            writing-mode: sideways-lr;
-            text-orientation: sideways-right;
+            z-index: 999;
+            font-weight: 600;
+            letter-spacing: 1px;
+            position: relative;
+            float: left;
+            margin: 0 0 0 67px;
+        }
+
+        .cs-line {
+            border-right: 0.25px solid #D3D1DB;
+            height: 78px;
+            z-index: 999;
+            position: absolute;
+            float:left;
+            margin: 23px 0 0 70px;
+            
+        }
+
+        #cso-img {
+            background: url(../img/sprite-sheet.png) 0px -78px;
+            position: relative;
+            z-index: 999;
+            width: 833px;
+            height: 411px;
+            max-width: 100%;
+            margin-top: 78px;
             float:left;
         }
 
-        .cs-bottom-copy
-        {
-            margin: 415px 0 0 0;
+    #case-study-two-container {
+        width: 833px;
+        float: right;
+        z-index: 999;
+        position: relative;
+        margin: 41px 21% 0 0;
+    }
+
+        #cso-two-img {
+            background: url(../img/sprite-sheet.png) 0px -497px;
+            position: relative;
+            z-index: 999;
+            width: 833px;
+            height: 385px;
+            max-width: 100%;
+            margin-top: 78px;
+            float:left;
         }
+
+    .cs-side-copy
+    {
+        color: #D3D1DB;
+        z-index: 999;
+        margin: 243px 0px 0px -20px;
+        font-size: 12px;
+        writing-mode: sideways-lr;
+        text-orientation: sideways-right;
+        float:left;
+    }
+
+    .cs-bottom-copy
+    {
+        margin: 415px 0 0 0;
+    }
+
+    .cs-bottom-two-copy
+    {
+        margin: 391px 0 0 0;
+    }
 
     #case-study-one {
         float:left;
@@ -104,6 +134,7 @@ canvas {
             text-orientation: mixed;
             padding: 9px;
             margin: 208px 0 0 9px;
+            font-size: 12px;
         }
 
             #case-study-one .line {
@@ -112,7 +143,7 @@ canvas {
                 z-index: 999;
                 position: relative;
                 float: left;
-                margin: 10px 10px 10px 10px;
+                margin: 10px 10px 10px 7px;
             }
 
 
@@ -124,7 +155,7 @@ canvas {
         text-indent: -9999px;
         width: 41px;
         height: 41px;
-        margin: 103px 0px 15px 0px;
+        margin: 103px 0px 15px -2px;
     }
 
     #linkedin {
@@ -135,6 +166,7 @@ canvas {
         text-indent: -9999px;
         width: 41px;
         height: 32px;
+        margin-left: -2px;
     }
 
     
