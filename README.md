@@ -11,3 +11,5 @@
 - Positioned contact section
 - Positioned first case study element
 - Temporarily disabled canvas element for testing
+- Positioned second case study element
+- Changed configuration of case study markup to maintain formatting on larger screen sizes
